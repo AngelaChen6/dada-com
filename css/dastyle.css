@@ -1,7 +1,37 @@
 html {
-	background-color: orange;
+	background-color: white;
 }
 
 nav {
+	background-color: orange;
+	position:fixed;
+	top:0;
+	width: 100%;
+	z-index: 1;	
+}
+
+nav ul {
+	text-align: right;
+	list-style-type: none;
 	
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a  {
+	font-size:1.2rem;
+	display: inline-block;
+	margin: 5px 20px 5px 10px;
+	color: white;
+	padding: 6px;
+	
+	transition: background-color 0.5s, color .5s;
+
+
+}
+
+.categary{
+margin-top: 10px;
 }
