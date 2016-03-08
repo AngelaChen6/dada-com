@@ -2,6 +2,20 @@ html {
 	background-color: white;
 }
 
+
+.white-link {
+    padding: 8px;
+    border-radius: 4px;
+    height: 36px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #5d5d5e;
+    text-shadow: none;
+}
+
+
+
 nav {
 	background-color: orange;
 	position:fixed;
@@ -30,6 +44,14 @@ nav ul li a  {
 	transition: background-color 0.5s, color .5s;
 
 
+}
+
+
+
+
+
+.icon-reorder:before {
+    content: "\f0c9";
 }
 
 .categary{
