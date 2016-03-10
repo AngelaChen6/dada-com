@@ -2,8 +2,23 @@ html {
 	background-color: white;
 }
 
+#logo a {
+	color: orange;
+    font-size: 36px;
+    line-height: 36px;
+    font-family: 'Ubuntu',sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+}
 
-.white-link {
+
+body {
+    min-height: 100%;
+    height: auto;
+    position: relative;
+}
+
+/*.white-link {
     padding: 8px;
     border-radius: 4px;
     height: 36px;
@@ -12,7 +27,7 @@ html {
     line-height: 1.5;
     color: #5d5d5e;
     text-shadow: none;
-}
+}*/
 
 
 
@@ -40,16 +55,35 @@ nav ul li a  {
 	margin: 5px 20px 5px 10px;
 	color: white;
 	padding: 6px;
-	
 	transition: background-color 0.5s, color .5s;
-
 
 }
 
 
+/*video {
+	border:1px solid black;
+}*/
+
+/*GROW*/
+.grow-pic { width: 30%;
+	display: inline-block;
+}
 
 
-
+.grow img {
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 400px;
+  height: 400px;
+}
+/*
 .icon-reorder:before {
     content: "\f0c9";
 }
@@ -57,3 +91,5 @@ nav ul li a  {
 .categary{
 margin-top: 10px;
 }
+*/
+
