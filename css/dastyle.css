@@ -1,15 +1,26 @@
 html {
 	background-color: white;
+	height: 100%;
 }
 
-#logo a {
+h1 {
+	font-size: 5rem;
+	font-family: 'Lato', sans-serif;
+	color: #87C1D9;
+    line-height: 36px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+/*#logo a {
 	color: orange;
     font-size: 36px;
     line-height: 36px;
     font-family: 'Ubuntu',sans-serif;
     text-decoration: none;
     font-weight: 400;
-}
+}*/
 
 
 body {
@@ -32,24 +43,21 @@ body {
 
 
 nav {
-	background-color: orange;
+	background-color:#DEE0E8 ;
 	position:fixed;
 	top:0;
 	width: 100%;
 	z-index: 1;	
 }
 
-nav ul {
-	text-align: right;
-	list-style-type: none;
-	
-}
 
-nav ul li {
+.clearfix a{
 	display: inline-block;
+    list-style-type: none;
 }
 
-nav ul li a  {
+.inner {
+	
 	font-size:1.2rem;
 	display: inline-block;
 	margin: 5px 20px 5px 10px;
@@ -84,6 +92,15 @@ nav ul li a  {
 }
 
 
+
+.grow-pic {
+	left: 20%;
+	width: 80%;
+	position: absolute;
+	height: 100%;
+
+}
+
 .grow-pic img {
  width: 200px;
   height: 200px;
@@ -100,14 +117,19 @@ nav ul li a  {
   height: 300px;
 }
 
+
+.categary{
+	background-color: #DEE0E8;
+	position: absolute;
+	font-size: 2rem;
+	text-align: left;
+	width: 20%;
+    margin-top: 10px;
+    height: 100%;
+}
+
+
 /*.icon-reorder:before {
     content: "\f0c9";
 }
 */
-.categary{
-	text-align: left;
-	width: 20%;
-    margin-top: 10px;
-}
-
-
