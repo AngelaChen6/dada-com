@@ -39,7 +39,9 @@ body {
     color: #5d5d5e;
     text-shadow: none;
 }*/
-
+h2 {
+	font-size: 2rem;
+}
 
 
 nav {
